@@ -4,8 +4,9 @@
 
 	let word = document.getElementById("fname");
 	
-	word.addEventListener("input" , function()  {
+	word.addEventListener("blur" , function()  {
 		this.value = this.value.toUpperCase();
 		
 	})
+
 
