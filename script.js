@@ -1,10 +1,11 @@
 //your JS code here. If required.
 
-function toupercase{
 
-	let word = document.getElementbyID(fname);
-	word.addEventListner("input" , function()  {
+
+	let word = document.getElementById("fname");
+	
+	word.addEventListener("input" , function()  {
 		this.value = this.value.toUpperCase();
 		
 	})
-}
+
